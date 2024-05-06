@@ -16,8 +16,8 @@ Step 4: Define the Text Summarization Function using a simple frequency-based ap
 Step 5: Construct the main program to read the paragraph  and perform text summarization<br>
       - Generate and print the original text.<br>
       - Generate and print the text summary using the  Text Summarization function<br>
-<H3>Program:</H3>
-
+## Program:
+```
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize,sent_tokenize
@@ -69,6 +69,7 @@ print("Origina1 Text: ")
 print (input_text )
 print( " \nSummary : " )
 print(summary)
+```
 
 
 <H3>Output</H3>
