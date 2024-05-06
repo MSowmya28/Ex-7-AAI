@@ -1,27 +1,23 @@
-### ENTER YOUR NAME: M SOWMYA
-### ENTER YOUR REGISTER NO.: 212221230107
-### EX. NO.7
-### DATE:
+<H3>M SOWMYA</H3>
+<H3>Reg No: 212221230107.</H3>
+<H3>EX. NO.7</H3>
+<H3>DATE:</H3>
 <H1 ALIGN =CENTER>Implementation of Text  Summarization</H1>
-## Aim:
-To perform automatic text summarization using Natural Language Processing (NLP) techniques.
-## Algorithm:
-### Step 1:
-Import necessary libraries for natural language processing tasks.<BR>
-### Step 2:
-Download NLTK resources, including the punkt tokenizer and stopwords.<BR>
-### Step 3:
-Define Text Preprocessing Function to tokenize, remove stopwords, and perform stemming.<BR>
-### Step 4:
-Define the Text Summarization Function using a simple frequency-based approach.<br>
+<H3>Aim: to perform automatic text summarization using Natural Language Processing (NLP) techniques. </H3> 
+ <BR>
+<h3>Algorithm:</h3>
+Step 1 Import necessary libraries for natural language processing tasks.<BR>
+Step 2: Download NLTK resources, including the punkt tokenizer and stopwords.<BR>
+Step 3: Define Text Preprocessing Function to tokenize, remove stopwords, and perform stemming.<BR>
+Step 4: Define the Text Summarization Function using a simple frequency-based approach.<br>
     - Calculate the frequency of each word in the preprocessed text.<br>
     - Calculate a score for each sentence based on the sum of word frequencies.<br>
     - Select the top N sentences with the highest scores to form the summary.<br>
-### Step 5:
-Construct the main program to read the paragraph  and perform text summarization<br>
+Step 5: Construct the main program to read the paragraph  and perform text summarization<br>
       - Generate and print the original text.<br>
       - Generate and print the text summary using the  Text Summarization function<br>
-## Program:
+<H3>Program:</H3>
+
 ```
 import nltk
 from nltk.corpus import stopwords
@@ -74,15 +70,19 @@ print("Origina1 Text: ")
 print (input_text )
 print( " \nSummary : " )
 print(summary)
+
 ```
 
 
-## Output:
+### Output:
+![ex7 1](https://github.com/MSowmya28/Ex-7-AAI/assets/94154791/6b1b245c-0c13-4ca5-8f7d-e2287b12646a)
 
-![ex7 1](https://github.com/MSowmya28/Ex-7-AAI/assets/94154791/1ec476ea-8cdb-4132-8d04-2eac0e1c53ef)
 
+<H3>Result:</H3>
 
-## Result:
 Thus ,the program to perform the Text summarization is executed sucessfully.
+
+
+
 
 
